@@ -14,6 +14,7 @@
 		71D86B322121E24D00BA87E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D86B302121E24D00BA87E2 /* LaunchScreen.storyboard */; };
 		71D86B3D2121E24D00BA87E2 /* TestPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D86B3C2121E24D00BA87E2 /* TestPodTests.swift */; };
 		71D86B482121E24D00BA87E2 /* TestPodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D86B472121E24D00BA87E2 /* TestPodUITests.swift */; };
+		71D86B562121E27B00BA87E2 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D86B552121E27B00BA87E2 /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		71D86B432121E24D00BA87E2 /* TestPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D86B472121E24D00BA87E2 /* TestPodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPodUITests.swift; sourceTree = "<group>"; };
 		71D86B492121E24D00BA87E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71D86B552121E27B00BA87E2 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				71D86B2E2121E24D00BA87E2 /* Assets.xcassets */,
 				71D86B302121E24D00BA87E2 /* LaunchScreen.storyboard */,
 				71D86B332121E24D00BA87E2 /* Info.plist */,
+				71D86B552121E27B00BA87E2 /* CustomView.swift */,
 			);
 			path = TestPod;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71D86B562121E27B00BA87E2 /* CustomView.swift in Sources */,
 				71D86B2A2121E24B00BA87E2 /* ViewController.swift in Sources */,
 				71D86B282121E24B00BA87E2 /* AppDelegate.swift in Sources */,
 			);
